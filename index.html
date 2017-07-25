@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>JS Loan Calculator</title>
+      <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+      <link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+  </head>
+  <body>
+      
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                <h1>JS Loan Calculator</h1>
+                <h3>A JustIT exercise</h3>
+
+                <form>
+                    <p>Enter amount</p>
+                    <input type="number" id="principle" class="form-control">
+                    <p>Interest Rate</p>
+                    <input type="number" id="interest" class="form-control">
+                    <p>Time of loan</p>
+                    <input type="number" id="time" class="form-control">
+
+                    <button id="calculate" class="btn btn-success form-control">Calculate</button>
+                </form>
+               </div> <!-- Column 1 end -->
+              
+              <div class="col-md-6">
+                <div class="results" id="results">
+                <h1 id="resulth1"></h1>
+                <h3 id="resulth3"></h3>
+                </div> <!-- Conent of result -->
+               </div> <!-- Column 2 end -->
+           </div> <!-- row end-->
+        </div>
+      
+  <script src="main.js"></script>
+  </body>
+</html>
